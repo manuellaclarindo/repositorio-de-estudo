@@ -1,0 +1,200 @@
+Banco Carrefour Woman Developer
+Bloco: Pensamento computacional
+Professora: Juliana Mascarenhas
+
+AULA 01 - Visão geral do pensamento computacional                                                     21/02/22
+
+Pensamento computacional
+Refere-se ao processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador. 
+                                                                                                                                  (Aho, 2011; Lee, 2016)
+ 	É uma habilidade geral de formulação e resolução de problemas;
+ 	É sistemático e eficiente;
+ 	Deve ser aplicado de forma que o ser humano e a máquina possam entender e resolver.
+
+Pilares
+É baseado em 4 pilares:
+ 	Decomposição - dividir um problema complexo em subproblemas;
+ 	Reconhecimento de padrões - identificar padrões ou tendências (pode ocorrer por similaridades ou diferenças entre os problemas);
+ 	Abstração - extrapolar o conceito do problema para uma forma generalista;
+ 	Design de algoritmos - definir passo a passo a solução do problema.
+
+Entrada de dados de um problema > sequência de operações > gera a solução para o problema em específico
+
+Processo contínuo
+ 	Deve-se definir uma solução, testá-la e, por fim, aperfeiçoá-la;
+ 	Esse processo é interessante pela otimização de recurso, importante para eficiência do algoritmo; 
+ 	Quando o algoritmo é eficiente, menos recursos e tempo será necessário para implementação da solução.
+
+Exemplos de aplicações
+ 	Na química, podemos usar algoritmos para identificar químicos necessários para aperfeiçoar as reações químicas;
+ 	Na engenharia, podemos fazer simulações de aeronaves executadas por softwares;
+ 	Na biologia, podemos fazer modelagem e mapeamento do genoma;
+ 	Na computação, podemos simular problemas de alta ordem em supercomputadores.
+
+Competências desenvolvidas
+ 	Pensamento sistemático (estruturado/objetivo);
+ 	Colaboração dentro da equipe;
+ 	Criatividade e design;
+ 	Facilitador (facilita o desenvolvimento).
+
+Habilidades
+1. Raciocínio lógico
+ 	É uma forma de pensamento estruturado que permite encontrar a conclusão ou determinar a resolução de um problema;
+ 	Habilidade construída através de treinamento, ou seja, quanto mais utilizada, mais se tornará intuitiva;
+ 	É classificado em: 
+ a. Indução 
+ 	Ocorre do particular para o geral;
+ 	Através de um fenômeno particular observado são formuladas leis e teorias;
+ 	É muito utilizado em ciências experimentais.
+ b. Dedução
+ 	Ocorre do geral para o particular;
+ 	Através de leis e teorias, são feitas previsões e explicações;
+ 	É muito utilizado em ciências exatas.
+ c. Abdução 
+ 	Utiliza a conclusão para definir hipóteses (premissa);
+ 	Esse tipo raciocínio pode acarretar em erro;
+ 	É muito utilizado em diagnósticos e processo investigativo. 
+
+exemplo: um pai, mãe e seu casal de filhos estão sentados em uma mesa. Os homens se chamam Roberto e Sérgio, mas mulheres Teresa e Fernanda. Sabe-se que o pai está à frente de Fernando e o filho à esquerda; e que a mãe está do lado direito de Sérgio. Determine as posições e quem é cada componente da família. 
+PASSO 1: Podemos determinar a posição dos seguintes familiares:
+PASSO 2: Se a mãe está do lado direito de Sérgio e há somente um local onde ela pode estar, logo, Sérgio é o pai. 
+PASSO 3: Dessa forma, já podemos determinar quem é cada um: 
+SÉRGIO é o pai;
+TERESA é a mãe;
+FERNANDA e ROBERTO são os filhos. 
+
+2. Aperfeiçoamento
+ 	A partir de uma solução, deve-se determinar pontos de melhora e refinamento;
+ 	É um processo contínuo;
+ 	Está presente em todas as etapas;
+ 	O ato de aperfeiçoar é:
+Encontrar solução eficiente;
+Otimizar processos;
+Simplificar linhas de códigos;
+Determinar funções bem definidas.
+ 	Vantagens
+	Maior compreensão;
+	Mais eficiência;
+	Menos tempos;
+	Menos armazenamento;
+	Menos custo;
+	etc.
+
+
+
+
+AULA 02 - pilares do pensamento computacional                                             21/02/22
+
+1. Decomposição
+“If you can’t solve a problem, then there is an easier problem that you can solve: find it.” 
+                                                                               George Polya
+ 	Primeiro passo da resolução de problemas dentro do conceito de pensamento computacional;
+ 	A primeira fase da decomposição é a análise, onde será possível estudar e fazer um exame detalhado do problema, de forma que seja possível decompor os elementos constituintes;
+ 	A segunda fase é a síntese, processo de reconstrução do problema original, onde os elementos serão fundidos de maneira coerente, ou seja, consiste na reunião de elementos distintos em um só;
+ 	A ordem da execução de tarefas menores pode ser:
+ a. Sequencial - existe uma dependência entre as tarefas, que são executadas em ordem;
+ b. Paralelo - as tarefas podem ser executadas concomitantemente (+ eficiência - tempo).
+ 	Como decompor?
+	Deixar o problema principal em segundo plano;
+	Focar nos componentes;
+	Ver quais características são fundamentais para resolver o problema;
+	Identificar quais características são dependentes e se são de problemas pequenos distintos.
+
+exemplo: criar um app
+ - Finalidade;
+ - Interface; 
+ - Funcionalidades;
+ - Pré-requisitos. 
+
+2. Reconhecimento de padrões
+ 	Modelo base;
+ 	Estrutura invariante;
+ 	Repetição;
+ 	Os padrões podem ser dados por semelhanças ou diferenças.
+
+exemplo 01: as fotos de rede sociais possuem metadata, que permitem a compressão do tamanho da imagem para serem salvas no servidor de dados de modo mais otimizado. Esse processo é utilizado pela maioria das plataformas para armazenamento de mídia, logo, esse é o padrão. 
+exemplo 02: a compressão de dados em si, pode ser feita por reconhecimento de padrões.
+ 
+ 	A identificação de padrões é feita de forma intuitiva em seres humanos;
+ 	Por que determinar padrões? É uma maneira de generalizar, com objetivo de obter resolução para problemas diferentes;
+ 	Como os seres humanos reconhecem padrões? 
+- Através do grau de similaridade (comparação);
+- Por meio de grupos conhecidos, é feita a comparação de objetos desconhecidos.
+ 	E os computadores? 
+- É necessária a representação de atributos, ou seja, fornecer dados para que o computador possa identificar o objeto;
+- Aprendizado, processo no qual o computador aprende qual o conceito associado ao objeto;
+- Armazenar os dados para que o computador possa acessá-los e tomar a decisão de qual é a classificação de um determinado objeto;
+- Por fim, determinar regras de decisão.
+ 	Aplicações: 
+	Classificação de dados;
+	Reconhecimento de imagem;
+	Reconhecimento de fala;
+	Análise de cenas;
+	Classificação de documentos.
+
+3. Abstração
+ 	Abstrair = Observar, um ou mais elementos, avaliando características e propriedades em separado;
+ 	Abstração = Processo intelectual de isolamento de um objeto da realidade; 
+ 	Generalizar = Tornar geral, mais amplo, sendo possível de ser usado em diversas situações;
+ 	Generalização = Na lógica, é a operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares;
+ 	Como classificar os dados?
+	Características;
+	Pontos essenciais;
+	Generalizar x detalhar (deixar de lado o detalhamento para poder generalizá-lo).
+
+4. Algoritmos
+ Vantagens do uso do computador:
+	Energia;
+	Pode trabalhar 24h;
+	Eficiência;
+	Rapidez.
+ Desvantagens:
+	Não opera sozinho;
+	Precisa de instruções detalhadas.
+ 	O computador recebe, manipula e armazena dados através de programas;
+ 	Esses programas vão funcionar por meio de instruções fornecidas pelos programadores;
+
+O que são os algoritmos, então?
+  São processos de resolução de problemas “step by step” utilizando instruções.
+ 
+Etapas do desenvolvimento de programa
+  Durante o desenvolvimento de um programa, temos as seguintes etapas:
+a. Análise: estudo e definição dos dados de entrada e saída, ou seja, os dados que precisam ser inseridos dentro do sistema para conseguir o resultado;
+b. Algoritmo: descreve o problema por meio de ferramentas narrativas, fluxograma ou pseudocódigo;
+c. Codificação: o algoritmo é codificado de acordo com a linguagem de programação escolhida.
+
+Aplicações de algoritmos no dia a dia
+	Preparar um sanduíche;
+	Trocar uma lâmpada;
+	Fazer uma receita de bolo;
+	Trajeto ao trabalho.
+
+Como construir um algoritmo?
+ 	Compreensão do problema - levantar os pontos mais importantes
+ 	Definição dos dados de entrada - dados fornecidos e cenário
+ 	Definir o processamento - cálculos e restrições
+ 	Definir os dados de saída - avaliar os dados esperados após o processamento 
+ 	Utilizar um método de construção - definir a construção do algoritmo
+ 	Teste e diagnóstico - refinamento do algoritmo para tornar eficiente ou corrigir erros
+
+Métodos de construção de algoritmos
+
+a. Narrativa
+ 	Utiliza da linguagem natural;
+ 	É o mais intuitivo;
+ 	Sem conceitos novos;
+ 	Tem diversas interpretações possíveis. 
+b. Fluxograma
+ 	Utilização de símbolos pré-definidos;
+ 	Simples entendimento;
+ 	Carrega conceitos novos;
+ 	Necessita de conhecimento prévio da estrutura e símbolos.
+c. Pseudocódigo
+ 	Portugol - pseudolinguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma relativamente mais simples e intuitiva;
+ 	Não há margem para diversas interpretações;
+ 	Passos a serem seguidos;
+ 	Regras definidas.
+
+
+
+ 

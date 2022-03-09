@@ -1,2 +1,2 @@
-# repositorio-de-estudo
+# Repositório de estudo
 Esse repositório foi criado para inserir materiais úteis para estudo.
